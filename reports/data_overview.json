@@ -1,0 +1,137 @@
+{
+  "generated_at_utc": "2026-11-19T12:47:42.834373+00:00",
+  "source": {
+    "path": "C:\\Users\\chane\\telco-churn\\data\\raw\\telco.csv",
+    "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+    "size_bytes": 970457
+  },
+  "shape": {
+    "rows": 7043,
+    "columns": 21
+  },
+  "dtypes": {
+    "customerID": "str",
+    "gender": "str",
+    "SeniorCitizen": "int64",
+    "Partner": "str",
+    "Dependents": "str",
+    "tenure": "int64",
+    "PhoneService": "str",
+    "MultipleLines": "str",
+    "InternetService": "str",
+    "OnlineSecurity": "str",
+    "OnlineBackup": "str",
+    "DeviceProtection": "str",
+    "TechSupport": "str",
+    "StreamingTV": "str",
+    "StreamingMovies": "str",
+    "Contract": "str",
+    "PaperlessBilling": "str",
+    "PaymentMethod": "str",
+    "MonthlyCharges": "float64",
+    "TotalCharges": "str",
+    "Churn": "str"
+  },
+  "target": {
+    "counts": {
+      "No": 5174,
+      "Yes": 1869
+    },
+    "proportions": {
+      "No": 0.7346,
+      "Yes": 0.2654
+    }
+  },
+  "duplicate_customer_ids": 0,
+  "missing_values": {
+    "customerID": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "gender": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "SeniorCitizen": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "Partner": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "Dependents": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "tenure": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "PhoneService": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "MultipleLines": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "InternetService": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "OnlineSecurity": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "OnlineBackup": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "DeviceProtection": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "TechSupport": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "StreamingTV": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "StreamingMovies": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "Contract": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "PaperlessBilling": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "PaymentMethod": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "MonthlyCharges": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    },
+    "TotalCharges": {
+      "isna": 0,
+      "empty_or_whitespace": 11
+    },
+    "Churn": {
+      "isna": 0,
+      "empty_or_whitespace": 0
+    }
+  },
+  "environment": {
+    "python_version": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "pandas_version": "3.1.1"
+  }
+}
